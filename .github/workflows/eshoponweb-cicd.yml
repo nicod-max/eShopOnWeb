@@ -5,12 +5,12 @@ on:
   workflow_dispatch
 
 env:
-  RESOURCE-GROUP: rg-eshoponweb-westeurope
+  RESOURCE-GROUP: rg-eshoponweb-eastus
   RESOURCE-GROUP-DEVOPS: devops-webapp-westeurope-247864688
   LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 56deebe1-3327-49ce-b3c7-81526024e1b3
-  WEBAPP-NAME: devops-webapp-westeurope-247864688
+  WEBAPP-NAME: devops-webapp-eastus-2184123025
 
 jobs:
   # Build, test and publish .NET web project in repository
